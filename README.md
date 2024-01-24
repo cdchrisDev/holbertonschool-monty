@@ -22,7 +22,4 @@
 		  2. Queues can be used to manage the order in which print jobs are send to the printer.
 		  3. Queues are used to implement the breadth-first search algorithm.
 * What are the proper ways to used a global variable.
-	* Variables should always have as small a scope as possible. The argument behind this is that every time you increase the scope, you have more code that potentially modifies the variable, thus more complexity is induced in the solution.
-
-It is thus clear that avoiding using global variables is preferred if the design and implementation naturally allow that. Due to this, I prefer not to use global variables unless they are really needed. 
-Some good examples where global variables are used are singleton pattern implementations or register access in embedded systems.
+	* Variables should always have as small a scope as possible. The argument behind this is that every time you increase the scope, you have more code that potentially modifies the variable, thus more complexity is induced in the solution.<br /> It is thus clear that avoiding using global variables is preferred if the design and implementation naturally allow that. Due to this, I prefer not to use global variables unless they are really needed. <br />Some good examples where global variables are used are singleton pattern implementations or register access in embedded systems.
