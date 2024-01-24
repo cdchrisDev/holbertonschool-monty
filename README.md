@@ -11,7 +11,7 @@
 	* A queue is used to set the items in the order we put it, being the first item entry the last to exit 
 * What are common implementations of stacks and queues.
 	* Stack `Task that require backtraking like parsing expressions or undo functionalities`
-	* Queue `It is used when we want to preccess elements in a specific order like handling requests or schedualing tasks.
+	* Queue `It is used when we want to preccess elements in a specific order like handling requests or schedualing tasks`.
 * The most common used cases of stacks and queues
 	* Stack: 1. Back and forward buttons in web browser.<br />
 		 2. UNDO/REDO function on text editors.<br />
